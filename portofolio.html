@@ -1,91 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas Portofolio</title>
-
-    <style>
-        table, tr, td, th{
-            border: 5px solid rgb(170, 170, 223);
-        }
-    </style>
+    <!--bootstrap css-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Profile | Anya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <a href="index.html">Biodata</a>
-    <a href="">Portofolio</a>
-
-    <h1 style="color: rgba(101, 135, 101, 0.824);" >Portofolio Anya Fitriadila L A</h1>
-
-    <form>
-        <p>Nama Instansi/Organisasi:</p>
-        <input type="text" name="nama instansi/organisasi">
-        <style>
-            .icon input { color: grey;}
-        </style>
-        <div class="icon">
-            <input type="submit" value="Kirim">
-            <input type="reset" values="Ulangi">
+    <body>
+   <!--navbar-->
+   <nav class="navbar" style="background-color: #a92c88;">
+    
+        <div class="container">
+          <a class="navbar-brand" href="index.html">My Profile | Anyafla</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" href="portofolio.html">Portofolio</a>
+             
+            </div>
+          </div>
         </div>
-    </form>
-    <br>
-    <table border="2">
-    <tr>
-        <style>
-            th{
-                color: white; background-color: rgba(183, 97, 97, 0.858);
-            }
-        </style>
-        <th>No</th>
-        <th>Nama Perusahaan/Organisasi</th>
-        <th>Posisi</th>
-        <th>Durasi</th>
-        <th>Deskripsi</th>
-    </tr>
+  </nav>
+<style>
+  .jumbotron {
+    padding-top: 4rem;
+    background-color: rgb(252, 205, 227);
+  }
+</style>
 
-    <tr>
-        <td>1</td>
-        <td>Future Skills Batch 6</td>
-        <td>Peserta XL Future Leaders</td>
-        <td>September-sekarang</td>
-        <td>Mengikuti program perkuliahan di luar kampus yang diselenggarakan oleh Universitas Gajah Mada yang dapat dikonversi 2-3 SKS</td>
-    </tr>
+  <!--jumbotron-->
+<section class=" jumbotron text-center">
+    <img src="foto.jpg" alt="Anyafla" width="200px" class="rounded-circle img-thumbnail"/>
+    <h1 class="display-4">Anyafla</h1>
+    <p class="lead">Digital Marketing | Multimedia | Self-Management | Analytical Thinking</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a92c88" fill-opacity="1" d="M0,96L21.8,106.7C43.6,117,87,139,131,149.3C174.5,160,218,160,262,149.3C305.5,139,349,117,393,128C436.4,139,480,181,524,202.7C567.3,224,611,224,655,213.3C698.2,203,742,181,785,160C829.1,139,873,117,916,112C960,107,1004,117,1047,138.7C1090.9,160,1135,192,1178,186.7C1221.8,181,1265,139,1309,106.7C1352.7,75,1396,53,1418,42.7L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+</section>
+<!--akhir jumbotron-->
 
-    <tr>
-        <td>2</td>
-        <td>Kampus Merdeka Studi Independen SEAL</td>
-        <td>Peserta Studi Independen</td>
-        <td>Agustus-sekarang</td>
-        <td>Mengikuti program Kampus Merdeka dan dapat dikonversi 20 SKS</td>
-    </tr>
-
-    <tr>
-        <td>3</td>
-        <td>Pers Mahasiswa Edukasi Universitas PGRI Madiun</td>
-        <td>Divisi Litbang</td>
-        <td>Februari-sekarang</td>
-        <td>CO acara webinar "Sinematografi : Cerita Dalam Visual</td>
-    </tr>
-
-    <tr>
-        <td>4</td>
-        <td>Department Of Informatics Universitas PGRI Madiun</td>
-        <td>Sekretaris</td>
-        <td>November 2021-sekarang</td>
-        <td>Mengurus kebutuhan administrasi dalam Himpunan Mahasiswa</td>
-    </tr>
-
-    <tr>
-        <td>5</td>
-        <td>KMMI (Kredensial Mikro Mahasiswa Indonesia) Scrum Project Management</td>
-        <td>Development Team</td>
-        <td>Agustus 2021-Oktober 2021</td>
-        <td>Finalis 20 besar Demo Day Scrum Project Management "Goworkly" Aplikasi Pengembangan Pencarian Pekerjaan</td>
-
-    </tr>
-
-    </table>
+<!--portofolio-->
+<section class=" jumbotron">
+<section id="portofolio">
+<div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Pengalaman</h2>
+                </div>
+                </div>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h5 class="text-center">Future Skills Batch 6</h5>
+                    <p align="center">Program perkuliahan yang diselenggarakan oleh Universitas Gajah Mada dan diterima di mitra XL Future Leaders</p>
+                </div>
+                <div class="col">
+                    <h5 class="text-center">Studi Independen Batch 3</h5>
+                    <p align="center">Program perkuliahan yang diselenggarakan oleh Kemendikbud yang dapat dikonversi 20 sks. Diterima di SEAL (Social Economic Accelerator Lab)</p>
+                </div>
+                <div class="col">
+                    <h5 class="text-center">KMMI (Kredensial Mikro Mahasiswa Indonesia)</h5>
+                    <p align="center">Finalis 20 besar Demo Day Scrum Project Management "Goworkly" Aplikasi Pengembangan Pencarian Pekerjaan</p>
+                </div>
+            </div>
+            
+            <div class="row text-center mt-5 mb-3" >
+                <div class="col">
+                    <h2>Organisasi</h2>
+                </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <h5 class="text-center">Himpunan Mahasiswa Teknik Informatika</h5>
+                        <p align="center">Himpunan Mahasiswa Teknik Informatika di Universitas PGRI Madiun. Himpunan mahasiswa ini lebih dikenal dengan sebutan DEPTICS (Department Of Informatics). Menjabat sebagai sekretaris sejak tahun 2021 sampai sekarang.</p>
+                    </div>
+            
+                    
+                        <div class="col">
+                            <h5 class="text-center">Pers Mahasiswa Edukasi</h5>
+                           <p align="center">Pers Mahasiswa Edukasi adalah Unit Kegiatan Mahasiswa (UKM). Pers Edukasi bergerak di bidang jurnalistik. Saya ditempatkan di divisi Penelitian dan Pengembangan (Litbang) sejak tahun 2022 sampai sekarang.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+    </div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a92c88" fill-opacity="1" d="M0,192L26.7,197.3C53.3,203,107,213,160,186.7C213.3,160,267,96,320,80C373.3,64,427,96,480,122.7C533.3,149,587,171,640,165.3C693.3,160,747,128,800,128C853.3,128,907,160,960,186.7C1013.3,213,1067,235,1120,224C1173.3,213,1227,171,1280,133.3C1333.3,96,1387,64,1413,48L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+</section>
+</section>
     
 </body>
 </html>

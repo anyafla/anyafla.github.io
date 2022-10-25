@@ -1,3 +1,27 @@
-.para{
-    color: rgb(210, 107, 192);
-}
+
+  
+  .jumbotron {
+    padding-top: 2rem;
+    background-color: rgb(255, 246, 230);
+  }
+
+  .card-title {
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  .card-text {
+    font-family: Tahoma;
+  }
+
+  .container {
+    font-family: 'Lucida Sans';
+    font-size: small;
+  }
+
+  .display-4 {
+    font-family: 'Lucida Grande';
+  }
+
+  .lead {
+    font-family: 'Lucida Grande';
+  }
